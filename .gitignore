@@ -2,5 +2,5 @@
 /.idea/
 *.lock
 *-lock.*
-/.phpunit.result.cache/
+/.phpunit.result.cache
 */.phpunit.result.cache
