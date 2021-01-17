@@ -6,6 +6,26 @@
             "email": "mohamedmosaadhabib@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./BasicAuthLib",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "./TokenAuthLib",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "habib/token-auth-lib": "dev-main",
+        "habib/basic-auth-lib": "dev-main"
+    },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },
