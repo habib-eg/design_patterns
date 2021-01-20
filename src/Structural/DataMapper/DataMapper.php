@@ -39,6 +39,10 @@ class DataMapper
         return $this->getManger()->find($username,'Username');
     }
 
+    /**
+     * @param User $user
+     * @return User
+     */
     public function saveUser(User  $user)
     {
         return $this->getManger()->save($user);
